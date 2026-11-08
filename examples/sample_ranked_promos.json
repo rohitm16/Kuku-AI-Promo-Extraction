@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "promo_id": "PROMO_001_EP15_CAND_14_16",
+    "episode_num": 15,
+    "start_time": "01:00.00",
+    "end_time": "01:22.80",
+    "duration_sec": 22.8,
+    "composite_score": 9.2,
+    "hook": {
+      "score": 9.5,
+      "type": "audiovisual_sync",
+      "description": "Juliana screaming 'Stop!' as the Tall Thug hoists his club, followed by Alexander's arrival"
+    },
+    "cliffhanger": {
+      "score": 9.5,
+      "type": "intra_scene",
+      "unresolved_question": "Will a fight break out between Alexander and the thugs?",
+      "is_immediately_resolved": false
+    },
+    "standalone": {
+      "score": 8.5,
+      "conflict": "The thugs are about to destroy the remaining herbs, and Alexander's arrival escalates the situation",
+      "requires_prior_lore": false
+    },
+    "editorial_rationale": "This promo works because it combines a dramatic moment with Alexander's intense arrival, raising the stakes and tension",
+    "segments": [
+      {
+        "segment_index": 1,
+        "episode": 15,
+        "start_time": "01:00.00",
+        "end_time": "01:22.80",
+        "duration_sec": 22.8
+      }
+    ],
+    "telemetry": {
+      "pruning_lane": "backfill",
+      "boundary_score": 5.0,
+      "development_score": 11.95,
+      "anomaly_score": 13.2,
+      "is_simulated": false
+    }
+  },
+  {
+    "rank": 2,
+    "promo_id": "PROMO_002_EP36_CAND_44_49",
+    "episode_num": 36,
+    "start_time": "02:25.80",
+    "end_time": "02:47.00",
+    "duration_sec": 21.2,
+    "composite_score": 9.1,
+    "hook": {
+      "score": 8.5,
+      "type": "audio_verbal",
+      "description": "Alexander's menacing question about the wedding"
+    },
+    "cliffhanger": {
+      "score": 9.8,
+      "type": "scene_terminal",
+      "unresolved_question": "Will Alexander be able to stop the wedding and save his wife?",
+      "is_immediately_resolved": false
+    },
+    "standalone": {
+      "score": 9.0,
+      "conflict": "Alexander's deadly determination to save his wife and take down his enemies",
+      "requires_prior_lore": false
+    },
+    "editorial_rationale": "This promo works because it showcases Alexander's transformation into a ruthless avenger",
+    "segments": [
+      {
+        "segment_index": 1,
+        "episode": 36,
+        "start_time": "02:25.80",
+        "end_time": "02:47.00",
+        "duration_sec": 21.2
+      }
+    ],
+    "telemetry": {
+      "pruning_lane": "boundary",
+      "boundary_score": 6.5,
+      "development_score": 17.35,
+      "anomaly_score": 21.6,
+      "is_simulated": false
+    }
+  },
+  {
+    "rank": 3,
+    "promo_id": "PROMO_003_EP43_CAND_05_19",
+    "episode_num": 43,
+    "start_time": "00:16.20",
+    "end_time": "01:16.00",
+    "duration_sec": 59.8,
+    "composite_score": 9.02,
+    "hook": {
+      "score": 9.5,
+      "type": "audiovisual_sync",
+      "description": "Rupert's outraged declaration 'I am Lord Rupert Ashburn' followed by the Royal Guard Captain's calm and resolute response 'No, he is your Duke'"
+    },
+    "cliffhanger": {
+      "score": 9.0,
+      "type": "scene_terminal",
+      "unresolved_question": "What will happen to Rupert and Lord Henry Sterling now that they have been accused of treason, and how will Alexander proceed with the evidence?",
+      "is_immediately_resolved": false
+    },
+    "standalone": {
+      "score": 8.5,
+      "conflict": "The central dramatic conflict is the accusation of treason against Rupert and Lord Henry Sterling, with Alexander seeking justice",
+      "requires_prior_lore": false
+    },
+    "editorial_rationale": "This promo works because it effectively conveys the shocking revelation of the treason accusation, and raises questions about the consequences of the characters' actions",
+    "segments": [
+      {
+        "segment_index": 1,
+        "episode": 43,
+        "start_time": "00:16.20",
+        "end_time": "01:16.00",
+        "duration_sec": 59.8
+      }
+    ],
+    "telemetry": {
+      "pruning_lane": "anomaly",
+      "boundary_score": 4.0,
+      "development_score": 23.87,
+      "anomaly_score": 30.8,
+      "is_simulated": false
+    }
+  },
+  {
+    "rank": 4,
+    "promo_id": "PROMO_004_EP01_CAND_01_09",
+    "episode_num": 1,
+    "start_time": "00:00.00",
+    "end_time": "00:54.60",
+    "duration_sec": 54.6,
+    "composite_score": 9.02,
+    "hook": {
+      "score": 9.0,
+      "type": "visual",
+      "description": "The symmetrical framing of the heavy church doors slowly parting, revealing Juliana in a elegant white silk gown, creates a visually striking and anticipatory opening hook."
+    },
+    "cliffhanger": {
+      "score": 9.5,
+      "type": "scene_terminal",
+      "unresolved_question": "What will happen to Juliana after she discovers Gerald's betrayal, and how will she react to this shocking revelation?",
+      "is_immediately_resolved": false
+    },
+    "standalone": {
+      "score": 8.5,
+      "conflict": "The central dramatic conflict is Juliana's discovery of Gerald's betrayal and her subsequent emotional turmoil.",
+      "requires_prior_lore": false
+    },
+    "editorial_rationale": "This promo works because it effectively sets up the dramatic conflict and raises questions in the viewer's mind, making them want to watch more to find out what happens next.",
+    "segments": [
+      {
+        "segment_index": 1,
+        "episode": 1,
+        "start_time": "00:00.00",
+        "end_time": "00:54.60",
+        "duration_sec": 54.6
+      }
+    ],
+    "telemetry": {
+      "pruning_lane": "anomaly",
+      "boundary_score": 5.5,
+      "development_score": 16.88,
+      "anomaly_score": 54.0,
+      "is_simulated": false
+    }
+  },
+  {
+    "rank": 5,
+    "promo_id": "PROMO_005_EP11_CAND_20_30",
+    "episode_num": 11,
+    "start_time": "01:00.00",
+    "end_time": "01:46.80",
+    "duration_sec": 46.8,
+    "composite_score": 9.02,
+    "hook": {
+      "score": 9.0,
+      "type": "visual",
+      "description": "The Constable aggressively pulls folded bed linens from a shelf and hurls them onto the damp floor, immediately drawing the viewer's attention to the intense conflict."
+    },
+    "cliffhanger": {
+      "score": 9.5,
+      "type": "scene_terminal",
+      "unresolved_question": "Will Alexander be falsely accused and arrested, and how will Juliana react to the discovery of the pocket watch?",
+      "is_immediately_resolved": false
+    },
+    "standalone": {
+      "score": 8.5,
+      "conflict": "The central dramatic conflict revolves around the false accusation of theft against Alexander, fueled by Gerald's malicious intentions and the complex relationships between the characters.",
+      "requires_prior_lore": false
+    },
+    "editorial_rationale": "This promo works because it effectively conveys the intense emotional conflict and raises questions about the characters' futures, making the viewer want to continue watching.",
+    "segments": [
+      {
+        "segment_index": 1,
+        "episode": 11,
+        "start_time": "01:00.00",
+        "end_time": "01:46.80",
+        "duration_sec": 46.8
+      }
+    ],
+    "telemetry": {
+      "pruning_lane": "boundary",
+      "boundary_score": 5.5,
+      "development_score": 19.74,
+      "anomaly_score": 32.4,
+      "is_simulated": false
+    }
+  }
+]
