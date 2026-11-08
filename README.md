@@ -61,7 +61,7 @@ All metrics reflect genuine execution on the full 50-episode screenplay dataset 
 
 ```mermaid
 flowchart TD
-    subgraph UI [Streamlit Web Application Layer (ui/)]
+    subgraph UI ["Streamlit Web Application Layer (ui/)"]
         UI1["app.py: Dashboard & Multi-Tab Hub"]
         UI2["file_manager.py: Zip-Slip Safe Ingestion"]
         UI3["model_settings.py: Credential & Preset Manager"]
@@ -71,14 +71,14 @@ flowchart TD
         UI7["export_view.py: One-Click Artifact Downloads"]
     end
 
-    subgraph S1 [Stage 1: Multi-Track Ingestion]
+    subgraph S1 ["Stage 1: Multi-Track Ingestion"]
         A["50 Screenplay Text Files"] --> B["Deterministic Parser"]
         B --> C["Track Separation: Scene, Camera, Action, Dialogue, Sound"]
         C --> D["Timeline Synchronizer & Beat Clusterer"]
         D --> E["3,725 Events &rarr; 1,328 Atomic Beats"]
     end
 
-    subgraph S2 [Stage 2: Combinatorial Windowing & Pruning]
+    subgraph S2 ["Stage 2: Combinatorial Windowing & Pruning"]
         E --> F["Combinatorial Slicing (20.0s &le; &Delta;t &le; 60.0s)"]
         F --> G["8,730 Valid Windows"]
         G --> H1["Lane 1: Boundary Salience"]
@@ -88,7 +88,7 @@ flowchart TD
         I --> J["463 Shortlisted Candidates (~9/ep)"]
     end
 
-    subgraph S3 [Stage 3: LLM Evaluation]
+    subgraph S3 ["Stage 3: LLM Evaluation"]
         J --> K["Mini-Batch Packaging (Batch Size = 3)"]
         K --> L["Official OpenAI Client Adapter (kuku_promo_system/llm_client.py)"]
         L --> M["Cold-Viewer Prompt"]
@@ -97,7 +97,7 @@ flowchart TD
         O --> P["Model-Aware Checkpoint Persistence"]
     end
 
-    subgraph S4 [Stage 4: Ranking & Deliverables]
+    subgraph S4 ["Stage 4: Ranking & Deliverables"]
         P --> Q["Composite Narrative Scoring & Penalties"]
         Q --> R["Intra-Episode Deduplication (IoU > 0.50: 463 &rarr; 282 Promos)"]
         R --> S1["Unrestricted Global Ranking"]
@@ -109,7 +109,6 @@ flowchart TD
     S4 --> UI5
     S4 --> UI7
 ```
-
 ---
 
 ## 3. Mathematical Scoring Formulation
